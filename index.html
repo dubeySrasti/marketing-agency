@@ -29,7 +29,7 @@
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#case">Portfolio</a>
         <a href="#contact" class="nav-btn">Contact</a>
       </nav>
     </div>
@@ -40,7 +40,7 @@
     <!-- Background Image -->
     <div class="hero-bg">
       <img src="/assets/images/png/background-hero-img1.jpg" alt="Creative Marketing Banner" />
-        <div class="overlay"></div>
+      <div class="overlay"></div>
     </div>
     <div class="home-page">
       <div class="hero-container">
@@ -66,7 +66,7 @@
   </section>
 
   <!-- About Section -->
-  <section class="about-section container">
+  <section class="about-section container" id="about">
     <div class="about-container">
       <div class="about-images">
         <!-- Large Image -->
@@ -75,11 +75,23 @@
         </div>
         <!-- Round Badge -->
         <div class="badge-container">
-          <div class="about-badge">
-            <img src="/assets/images/svg/arrow-up.svg" class="badge-icon" alt="arrow" />
-            <span class="badge-text">SUCCESS BRAND WITH DESIGN + STRATEGY</span>
+          <div class="circular-badge">
+            <svg viewBox="0 0 300 300" class="badge-svg">
+              <path id="circlePath" d="M150,150 m-110,0 a110,110 0 1,1 220,0 a110,110 0 1,1 -220,0" fill="none" />
+              <text class="circle-text">
+                <textPath href="#circlePath" startOffset="0%">
+                  BUILD A SUCCESS BRAND WITH DEMO UI •
+                </textPath>
+              </text>
+              <g class="arrow">
+                <line x1="150" y1="120" x2="150" y2="180" />
+                <line x1="150" y1="120" x2="170" y2="140" />
+              </g>
+            </svg>
           </div>
         </div>
+
+
         <!-- Small Top Image -->
         <div class="img-small-top">
           <img src="/assets/images/png/about1.jpg" alt="" />
@@ -194,9 +206,9 @@
   </section>
 
   <!-- Case Study -->
-  <section class="case-modern">
+  <section class="case-modern" id="case">
     <div class="case-top">
-      <span class="case-badge">→  Case Studies</span>
+      <span class="case-badge">→ Case Studies</span>
       <h2>We Deliver Impactful Results</h2>
       <!-- <p>
         Explore how we help brands grow using modern strategies, design,
@@ -250,7 +262,7 @@
   </section>
 
   <!-- Contact us -->
-  <section class="contact-us-section">
+  <section class="contact-us-section" id="contact">
     <div class="contact-wrapper">
       <div class="contact-text">
         <div class="services-header contact-text">
@@ -290,7 +302,6 @@
   </section>
 
   <!-- Footer -->
-
   <footer class="footer">
     <div class="footer-container">
       <!-- Column 1 -->
@@ -314,7 +325,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#case">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
