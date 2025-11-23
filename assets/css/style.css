@@ -84,7 +84,7 @@ a {
 
 /* toggle button active */
 .nav-toggle.active span:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
 }
 
 .nav-toggle.active span:nth-child(2) {
@@ -92,7 +92,7 @@ a {
 }
 
 .nav-toggle.active span:nth-child(3) {
-  transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* Navbar */
@@ -332,6 +332,10 @@ a {
   color: var(--themeColor);
   font-weight: 600;
   font-size: clamp(1rem, 0.9721rem + 0.1274vw, 1.125rem);
+  display: flex;
+    align-items: end;
+    gap: 4px;
+    justify-content: center;
 }
 
 section {
@@ -664,6 +668,10 @@ section.visible {
   margin-bottom: 12px;
   font-weight: 500;
   font-size: clamp(1rem, 0.9721rem + 0.1274vw, 1.125rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
 
 .case-top h2 {
@@ -932,7 +940,7 @@ section.visible {
 }
 
 .footer-social {
-  margin-top: 12px;
+  margin-top:24px;
   display: flex;
   gap: 12px;
 }
