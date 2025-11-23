@@ -35,10 +35,12 @@ a {
   max-width: 1250px;
   margin: auto;
 }
+
 /* color */
-.themeColor{
-    color: var(--themeColor);
+.themeColor {
+  color: var(--themeColor);
 }
+
 /* ---------------- NAVBAR GLOBAL ---------------- */
 .navbar {
   width: 100%;
@@ -679,7 +681,6 @@ section.visible {
 .case-top h2 {
   font-size: clamp(1.5rem, 1.3885rem + 0.5096vw, 2rem);
   font-weight: 700;
-  margin: 8px 0px;
 }
 
 .case-top p {
@@ -1038,6 +1039,10 @@ section.visible {
 
   .hero-banner img {
     max-width: 350px;
+  }
+
+  .section-tag {
+    justify-content: center;
   }
 
   .about-container {
